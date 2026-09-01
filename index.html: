@@ -1,0 +1,30 @@
+<!-- Place inside <div id="content"> -->
+<div class="polaroid-container">
+  <div class="polaroid">
+    <img src="photo1.jpg" alt="Memory" style="width:100%; border-radius:4px;">
+    <p class="caption">Our first date ☕</p>
+  </div>
+</div>
+
+<style>
+  .polaroid-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .polaroid {
+    background: white;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transform: rotate(-3deg);
+    max-width: 200px;
+    color: #333;
+  }
+  .caption {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+</style>
